@@ -9,8 +9,7 @@
 
 body {
   position: relative;
-  overflow-y: hidden !important;
-  overflow-x: hidden !important;
+
 }
 
 .container {
