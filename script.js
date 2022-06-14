@@ -139,7 +139,6 @@ addBtn.addEventListener('click' , () => {
 
 
 drawerToggler.addEventListener('click' , () => {
-    console.log('asd');
     drawer.classList.add('open');
     drawerOverlay.classList.add('open');
     document.body.style.overflowY = "hidden"
@@ -148,12 +147,16 @@ drawerToggler.addEventListener('click' , () => {
 drawerClose.addEventListener('click' , () => {
     drawer.classList.remove('open');
     drawerOverlay.classList.remove('open');
+    document.body.style.overflowY = "unset"
+
 
 });
 
 drawerOverlay.addEventListener('click' , () =>{
     drawer.classList.remove('open');
     drawerOverlay.classList.remove('open');
+    document.body.style.overflowY = "unset"
+
 })
 
 
