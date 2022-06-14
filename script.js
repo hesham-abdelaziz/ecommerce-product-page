@@ -100,7 +100,7 @@ addBtn.addEventListener('click' , () => {
     productInCart.innerHTML =
     `
     <div class="product">
-    <img src="/images/image-product-1-thumbnail.jpg">
+    <img src="images/image-product-1-thumbnail.jpg">
     <div
     style="display :flex;
     flex-direction : column;
@@ -112,7 +112,7 @@ addBtn.addEventListener('click' , () => {
     $${mainPrice}.00 x ${number}  <strong>$${mainPrice * number}.00</strong>
     </span>
     </div>
-    <img class="delete-icon" src="/images/icon-delete.svg">
+    <img class="delete-icon" src="images/icon-delete.svg">
 
     </div>
     <button class="checkOutBtn">Checkout</button>
